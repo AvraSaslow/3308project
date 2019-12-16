@@ -8,3 +8,9 @@ The SmartOBD is an open-source, customizable, and accessible OBD scanner and use
 The associative website is comprised of three parts: a home dashboard, a data log of previous OBD readings, and live log page which displays current OBD readings. The user can create an account with multiple cars, such that they can view the dashboard, history log, and live log for each of their cars. The dashboard presents the most important information to the user, including various temperatures and pressures, scanning history, and miles travelled since previously scanned. 
 
 Ultimately, the SmartOBD helps car owners become more informed about the condition of their vehicles without constantly having to visit a mechanic. It provides a wealth of information in a readable manner, including the status of the malfunction indicator light, diagnostic trouble codes, inspection and maintenance information, freeze frames, VIN, hundreds of real-time metrics. For users who are more knowledgeable about cars, it provides them the opportunity to utilize that it is open-source and customize which commands they’d like to see and clear codes. 
+
+*Dependences:*
+`obd == 0.7.1`
+`progressbar==2.5`
+`psycopg2-binary==2.8.4`
+`postgreSQL==12.1`
