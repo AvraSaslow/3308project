@@ -9,8 +9,26 @@ The associative website is comprised of three parts: a home dashboard, a data lo
 
 Ultimately, the SmartOBD helps car owners become more informed about the condition of their vehicles without constantly having to visit a mechanic. It provides a wealth of information in a readable manner, including the status of the malfunction indicator light, diagnostic trouble codes, inspection and maintenance information, freeze frames, VIN, hundreds of real-time metrics. For users who are more knowledgeable about cars, it provides them the opportunity to utilize that it is open-source and customize which commands they’d like to see and clear codes. 
 
+### How to Run OBD & User Interface
+
+Take your SmartOBD and USB-to-OBD-II adapter, and plug the USB into your computer and the OBD-II adapter into your car’s OBD port (it’s usually located under the dashboard, beneath the steering wheel). 
+
+Open up the [user interface](https://smart-obd.herokuapp.com/), create an account, add a vehicle 
+
+
+### Github Organization/Structure:
+
+
+### How to Build, Run, and Test Code: 
+
+
+
 *Dependences:*
+
 `obd == 0.7.1`
+
 `progressbar==2.5`
+
 `psycopg2-binary==2.8.4`
+
 `postgreSQL==12.1`
