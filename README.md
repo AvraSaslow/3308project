@@ -25,10 +25,10 @@ Open up the [user interface](https://smart-obd.herokuapp.com/), create an accoun
 
 *Dependences:*
 
-`obd == 0.7.1`
+`python-OBD == 0.7.1`
 
-`progressbar==2.5`
+`progressbar == 2.5`
 
-`psycopg2-binary==2.8.4`
+`psycopg2-binary == 2.8.4`
 
-`postgreSQL==12.1`
+`postgreSQL == 12.1`
