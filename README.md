@@ -19,31 +19,23 @@ Open up the [user interface](https://smart-obd.herokuapp.com/), create an accoun
 
 **Development files**
 
-	Files used in development stages, deprecated methods
+Files used in development stages, deprecated methods
   
 **Smart OBD**
 
-	Nodejs
+Nodejs
   
-		Contains all files for node server to be deployed on heroku
+Contains all files for node server to be deployed on heroku
     
 **Dynamic_commands** 
 	
-  Docs
-		
-    Contains documentation for executable
+ Docs: Contains documentation for executable
 	
-  Tests
-		
-    Unit testing
+ Tests: Unit testing
 	
-  Executable
-		
-    Compile files for executable
+ Executable: Compile files for executable
 	
-  smartOBD
-		
-    Python package to be used in main.py
+ smartOBD: Python package to be used in main.py
 
 
 
@@ -56,7 +48,7 @@ To access application, go to smart-obd.herokuapp.com
 May also need to go to wiwa-hasura.herokuapp.com/console in order to wake up the database.
 
 
-*Dependences:*
+### Dependences:
 
 `python-OBD == 0.7.1`
 
