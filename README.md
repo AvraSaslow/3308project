@@ -23,9 +23,7 @@ Files used in development stages, deprecated methods
   
 **Smart OBD**
 
-Nodejs
-  
-Contains all files for node server to be deployed on heroku
+Nodejs: Contains all files for node server to be deployed on heroku
     
 **Dynamic_commands** 
 	
