@@ -13,14 +13,47 @@ Ultimately, the SmartOBD helps car owners become more informed about the conditi
 
 Take your SmartOBD and USB-to-OBD-II adapter, and plug the USB into your computer and the OBD-II adapter into your car’s OBD port (it’s usually located under the dashboard, beneath the steering wheel). 
 
-Open up the [user interface](https://smart-obd.herokuapp.com/), create an account, add a vehicle 
-
+Open up the [user interface](https://smart-obd.herokuapp.com/), create an account, add a vehicle, and load in the OBD data. 
 
 ### Github Organization/Structure:
+
+**Development files**
+
+	Files used in development stages, deprecated methods
+  
+**Smart OBD**
+
+	Nodejs
+  
+		Contains all files for node server to be deployed on heroku
+    
+**Dynamic_commands** 
+	
+  Docs
+		
+    Contains documentation for executable
+	
+  Tests
+		
+    Unit testing
+	
+  Executable
+		
+    Compile files for executable
+	
+  smartOBD
+		
+    Python package to be used in main.py
+
 
 
 ### How to Build, Run, and Test Code: 
 
+Run.sh - 
+Takes arguments to build an executable, run the raw source code, compile sphinx docs for the executable, and run pytest on the source code. Call run.sh in root folder to see all options
+
+To access application, go to smart-obd.herokuapp.com
+May also need to go to wiwa-hasura.herokuapp.com/console in order to wake up the database.
 
 
 *Dependences:*
